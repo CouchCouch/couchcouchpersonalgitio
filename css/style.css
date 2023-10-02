@@ -2,11 +2,98 @@ body {
     background-color: #000068;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
 }
 
 h1 {
     font-size: 2.5em;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 2%;
+}
+
+p, li {
+    font-size: 1.5em;
+}
+
+.title {
+    margin-bottom: 2%;
+}
+
+.AboutMe {
+    background-color: #000088;
+    border: 5px solid #ffffff7e ;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2%;
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.favfood {
+    background-color: #000088;
+    border: 5px solid #ffffff7e ;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2%;
+    width: 45%;
+    float: right;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    bottom: 0;
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.SELink {
+    background-color: #000088;
+    border: 5px solid #ffffff7e ;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2%;
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.ClassGoals {
+    background-color: #000088;
+    border: 5px solid #ffffff7e ;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2%;
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+a:hover {
+    background-color: #000000;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+a:visited {
+    padding: 2%;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    padding: 2%;
+    font-weight: bold;
+    text-decoration: underline;
 }
